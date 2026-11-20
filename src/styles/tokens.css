@@ -1,0 +1,83 @@
+:root {
+  --page: #eef2f7;
+  --page-deep: #e2e8f1;
+  --aurora-one: rgba(45, 212, 191, 0.38);
+  --aurora-two: rgba(99, 102, 241, 0.26);
+  --aurora-three: rgba(236, 72, 153, 0.16);
+
+  --surface: rgba(255, 255, 255, 0.76);
+  --surface-solid: #ffffff;
+  --surface-raised: rgba(255, 255, 255, 0.92);
+  --surface-sunken: rgba(15, 23, 42, 0.04);
+  --hairline: rgba(15, 23, 42, 0.1);
+  --hairline-strong: rgba(15, 23, 42, 0.18);
+
+  --ink: #0b1220;
+  --ink-soft: #475569;
+  --ink-faint: #94a3b8;
+
+  --accent: #0f766e;
+  --accent-bright: #14b8a6;
+  --on-accent: #ffffff;
+  --accent-glow: rgba(20, 184, 166, 0.3);
+
+  --danger: #be123c;
+  --danger-soft: rgba(190, 18, 60, 0.1);
+
+  --valid: #15803d;
+  --valid-bg: rgba(21, 128, 61, 0.12);
+  --invalid: #b42318;
+  --invalid-bg: rgba(180, 35, 24, 0.12);
+  --warn: #b45309;
+  --warn-bg: rgba(180, 83, 9, 0.14);
+  --neutral: #475569;
+  --neutral-bg: rgba(71, 85, 105, 0.12);
+
+  --track: rgba(15, 23, 42, 0.08);
+  --shadow-low: 0 1px 2px rgba(15, 23, 42, 0.06), 0 4px 12px rgba(15, 23, 42, 0.05);
+  --shadow-high: 0 8px 24px rgba(15, 23, 42, 0.1), 0 24px 56px rgba(15, 23, 42, 0.09);
+
+  color-scheme: light;
+}
+
+.theme-dark {
+  --page: #070b12;
+  --page-deep: #04070c;
+  --aurora-one: rgba(45, 212, 191, 0.3);
+  --aurora-two: rgba(99, 102, 241, 0.28);
+  --aurora-three: rgba(236, 72, 153, 0.16);
+
+  --surface: rgba(19, 26, 36, 0.72);
+  --surface-solid: #131a24;
+  --surface-raised: rgba(27, 36, 48, 0.86);
+  --surface-sunken: rgba(255, 255, 255, 0.04);
+  --hairline: rgba(255, 255, 255, 0.1);
+  --hairline-strong: rgba(255, 255, 255, 0.2);
+
+  --ink: #e8edf5;
+  --ink-soft: #9fb0c4;
+  --ink-faint: #64748b;
+
+  --accent: #2dd4bf;
+  --accent-bright: #5eead4;
+  --on-accent: #042f2a;
+  --accent-glow: rgba(45, 212, 191, 0.26);
+
+  --danger: #fb7185;
+  --danger-soft: rgba(251, 113, 133, 0.14);
+
+  --valid: #4ade80;
+  --valid-bg: rgba(74, 222, 128, 0.14);
+  --invalid: #f87171;
+  --invalid-bg: rgba(248, 113, 113, 0.14);
+  --warn: #fbbf24;
+  --warn-bg: rgba(251, 191, 36, 0.14);
+  --neutral: #94a3b8;
+  --neutral-bg: rgba(148, 163, 184, 0.14);
+
+  --track: rgba(255, 255, 255, 0.09);
+  --shadow-low: 0 1px 2px rgba(0, 0, 0, 0.4), 0 4px 14px rgba(0, 0, 0, 0.34);
+  --shadow-high: 0 10px 30px rgba(0, 0, 0, 0.5), 0 30px 60px rgba(0, 0, 0, 0.42);
+
+  color-scheme: dark;
+}
